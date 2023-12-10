@@ -328,4 +328,24 @@ footer {
     height: 23px;
     margin-top: 17px;
   }
+}
+/*margre*/
+.fonctionnement, .restaurants h2, .choice_restaurant, .footer_bloc {
+  width: 90%;
+  margin: auto;
+}
+
+.choice_restaurant {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .fonctionnement, .restaurants h2, .choice_restaurant {
+    width: 75%;
+    margin: auto;
+  }
+  .footer_bloc {
+    width: 88%;
+    margin: auto;
+  }
 }/*# sourceMappingURL=style.css.map */
