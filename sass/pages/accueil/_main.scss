@@ -109,6 +109,7 @@
   }
       
   .choice_restaurant {
+    display: flex;
     background-color: #fff;
     width: 100%;
     border-radius: 20px;
@@ -122,6 +123,11 @@
           height: 200px;
           object-fit: cover;
           border-radius: 20px 20px 0 0;
+      }
+
+      a {
+        width: 100%;
+        cursor: auto;
       }
   
   
@@ -169,6 +175,7 @@
   .icon_box {
     position: relative;
     display: inline-block;
+    bottom: -74%;
   }
   
   .heart_empty {
@@ -225,5 +232,9 @@
   
     .choice_fonctionnement {
       width: 320px;
+    }
+
+    .icon_box {
+      top: 70%;
     }
   }

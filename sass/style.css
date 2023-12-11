@@ -163,6 +163,7 @@ header {
 }
 
 .choice_restaurant {
+  display: flex;
   background-color: #fff;
   width: 100%;
   border-radius: 20px;
@@ -177,6 +178,10 @@ header {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 20px 20px 0 0;
+}
+.choice_restaurant a {
+  width: 100%;
+  cursor: auto;
 }
 .choice_restaurant h3 {
   font-size: 19px;
@@ -218,6 +223,7 @@ header {
 .icon_box {
   position: relative;
   display: inline-block;
+  bottom: -74%;
 }
 
 .heart_empty {
@@ -270,6 +276,9 @@ input[type=checkbox]:checked + .icon_box .heart_empty {
   }
   .choice_fonctionnement {
     width: 320px;
+  }
+  .icon_box {
+    top: 70%;
   }
 }
 footer {
@@ -365,7 +374,7 @@ footer {
      object-fit: contain;
 }
 
-.icon_box {
+.icon_box_restaurant {
   position: relative;
   display: inline-block;
 }
@@ -743,6 +752,7 @@ input[type=checkbox]:checked + .icon_box .heart_empty_restaurant {
   .choice_restaurant {
     width: 45%;
     margin-bottom: 50px;
+    display: flex;
   }
 }
 @media only screen and (max-width: 415px) {
