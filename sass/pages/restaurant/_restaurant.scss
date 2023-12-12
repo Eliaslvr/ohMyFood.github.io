@@ -14,36 +14,6 @@
     }
 }
 
-// .icon_box_restaurant {
-//   position: relative;
-//   display: inline-block;
-// }
-
-// .heart_full_restaurant_restaurant,
-// .heart_empty_restaurant_restaurant {
-//   position: static;
-//   // top: -9px;
-//   // right: 23px;
-//   font-size: 30px;
-//   transition: color 0.3s ease;
-// }
-
-// input[type="checkbox"] {
-//   position: absolute;
-//   opacity: 0;
-// }
-
-// input[type="checkbox"]:checked + .icon_box_restaurant .heart_full_restaurant {
-//   opacity: 1;
-//   background-image : linear-gradient(#FF79DA, #9356DC) ;
-//   -webkit-background-clip: text;
-//   -webkit-text-fill-color: transparent;
-// }
-
-// input[type="checkbox"]:checked + .icon_box_restaurant .heart_empty_restaurant {
-//   opacity: 0;
-// }
-
 .icon_box_restaurant {
   position: relative;
   display: inline-block;
@@ -103,11 +73,7 @@ input[type="checkbox"]:checked + .icon_box_restaurant .heart_empty_restaurant {
     justify-content: space-between;
     padding-top: 40px;
     font-size: 18px;
-  
-      /*.icon_right {
-          margin-top: auto;
-          font-size: 36px;
-      }*/
+    
       .icon_right {
         margin: 0 10px 0 0;
         font-size: 30px;
