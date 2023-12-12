@@ -71,14 +71,14 @@ input[type="checkbox"] {
   opacity: 0;
 }
 
-input[type="checkbox"]:checked + .icon_box .heart_full_restaurant {
+input[type="checkbox"]:checked + .icon_box_restaurant .heart_full_restaurant {
   opacity: 1;
   background-image : linear-gradient(#FF79DA, #9356DC) ;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-input[type="checkbox"]:checked + .icon_box .heart_empty_restaurant {
+input[type="checkbox"]:checked + .icon_box_restaurant .heart_empty_restaurant {
   opacity: 0;
 }
   
